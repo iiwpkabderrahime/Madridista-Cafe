@@ -448,7 +448,6 @@ svg path{
 .product-3{
     grid-area:product3 ;
     max-width:410px;
-    
     width:fit-content;
     padding:2rem;
     display: flex;
