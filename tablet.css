@@ -1,0 +1,73 @@
+@media (max-width:1110px){
+    .small-intro h1{
+    width:100%;
+    font-size: 3.2rem;
+}
+
+.story{
+    flex-direction: column-reverse;
+    align-items: center;
+    
+}
+.story-left{
+    width:fit-content;
+    
+}
+.story-left img{
+    width:400px;
+    object-fit: cover;
+
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.product-3{
+    max-width:none;
+    flex-direction: row;
+}
+.product-3 img{
+    max-width:200px;
+    
+}
+.Gallery div{
+    display: flex;
+    flex-direction: column;
+}
+.Gallery div img{
+    width:100%;
+}
+.matchday{
+    text-align: center;
+    padding:4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2rem;
+
+}
+.matchday h2{
+    width:100%;
+}
+.matchday p{
+    width:100%;
+    
+}
+
+.matchday button{
+    padding:0.9rem 1.7rem;
+}
+footer{
+    padding:1.9rem ;
+
+
+}
+footer h2{
+   font-size: 1.2rem;
+}
+footer p{
+   font-size: 0.8rem;
+}
+
+
+}
