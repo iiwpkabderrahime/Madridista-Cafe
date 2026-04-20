@@ -327,7 +327,9 @@ svg path{
     "product3 reserve reserve"
     "product3 reserve reserve";
     gap:2rem;
-
+    animation: slide-in 1.4s ease , hide-in 2s ease  ;
+    animation-timeline: view() ;
+    animation-range:entry , exit 70%;
 
 }
 .menu header > p{
@@ -497,6 +499,7 @@ svg path{
     border-radius:10px;
     transition: all 0.2s ease;
 
+
 }
 .reserve:hover{
     transform: translateY(-10px);
@@ -538,7 +541,9 @@ svg path{
     text-align: center;
     padding:2rem;
     gap:2rem;
-
+    animation: slide-in 1.4s ease , hide-in 2s ease  ;
+    animation-timeline: view() ;
+    animation-range:entry , exit 70%;
 }
 .Gallery p{
     color:var(--dark-yellow);
@@ -623,8 +628,10 @@ main +hr{
 footer{
     display: flex;
     padding:2rem;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
+    gap:2rem;
+
 }
 footer h2{
     color:white;
