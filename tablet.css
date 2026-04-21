@@ -68,6 +68,13 @@ footer h2{
 footer p{
    font-size: 0.8rem;
 }
+.reserve{
+    padding:2rem;
+    text-align: center;
+}
+.reserve p{
+    width:100%;
+}
 
 
 }
